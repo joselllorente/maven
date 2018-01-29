@@ -1,0 +1,1 @@
+Ejecutar mvn es.curso.maven:PluginPropio:1.0:fase1

@@ -1,0 +1,10 @@
+Meter settings.xml
+Configuraci�n
+	1. Fichero settings.xml en %M2_HOME%/ coonfigurando los entornos
+	2. ficheros con los datos por cada entorno en src/main/filters
+	3. Fichero de configuracion en --> /config/configuration.xml cuyos valores se sustituiran por los de los ficheros con datos dependiendo del entorno en el que estemos
+	
+Ejecutar
+mvn clean package #Aparecera desa que es el activo en el settings.xml
+mvn clean package -P entorno-prod #Aparecera prod
+mvn clean package -P !perfil-1,!perfil-2 #Desactiva perfiles por defecto

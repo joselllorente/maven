@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: es.curso.maven.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec <<< FAILURE!
+testApp(es.curso.maven.AppTest)  Time elapsed: 0.031 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at es.curso.maven.AppTest.testApp(AppTest.java:36)
+

@@ -1,0 +1,10 @@
+<bean id="mockBean">
+	<property name="propiedadDelPom" value="${propiedadHardcode}" />
+
+	<property name="propiedadSegunEntorno1" value="${propiedad.1}" />
+	<property name="propiedadSegunEntorno2" value="${propiedad.2}" />
+	<property name="propiedadSegunEntorno3" value="${propiedad.3}" />
+
+	<property name="versionDelPom" value="${pom.version}" />
+	<property name="nombreProyecto" value="${project.name}" />
+</bean>

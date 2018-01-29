@@ -1,0 +1,10 @@
+<bean id="mockBean">
+	<property name="propiedadDelPom" value="Hola, soy una propiedad definida en el POM!!" />
+
+	<property name="propiedadSegunEntorno1" value="Soy la propiedad uno de producción" />
+	<property name="propiedadSegunEntorno2" value="Soy la propiedad dos de producción" />
+	<property name="propiedadSegunEntorno3" value="Soy la propiedad tres de producción" />
+
+	<property name="versionDelPom" value="0.0.1-SNAPSHOT" />
+	<property name="nombreProyecto" value="Filtros" />
+</bean>
